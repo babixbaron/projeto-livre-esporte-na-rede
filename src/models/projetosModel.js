@@ -10,6 +10,7 @@ const projetosSchema = mongoose.Schema(
         vagasDisponiveis: { type: Boolean },
         diasDaSemana: [{ type: String }],
         modalidades: [{ type: String }],
+        idades: { type: String }
     },
     {
         versionKey: false,
