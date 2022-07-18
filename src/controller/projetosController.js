@@ -6,10 +6,10 @@ const ProjetosModel = require('../models/projetosModel')
 const registerNewProject = async (req, res) => {
 
     try {
-        const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades} = req.body
+        const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade } = req.body
     
         const newProject = new ProjetosModel ({
-            nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades
+            nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade
         })
     
         const savedProject = await newProject.save()
@@ -22,7 +22,19 @@ const registerNewProject = async (req, res) => {
     }
 }
 
+const findAllProjects = async (req, res) => {
+    try {
+        const allProjects = await ProjetosModel.find()
+        res.status(200).json(allProjects)
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({ message: error.message })
+    }
+}
+
 
 module.exports = {
-    registerNewProject
+    registerNewProject,
+    findAllProjects
 }
