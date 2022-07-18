@@ -105,6 +105,46 @@
         }
       }
     },
+    "/projeto/regiao": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "regiao",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/projeto/modalidade": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "modalidades",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
     "/projeto/atualizar/{id}": {
       "patch": {
         "description": "",
