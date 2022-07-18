@@ -6,10 +6,10 @@ const ProjetosModel = require('../models/projetosModel')
 const registerNewProject = async (req, res) => {
 
     try {
-        const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade } = req.body
+        const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades } = req.body
     
         const newProject = new ProjetosModel ({
-            nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade
+            nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades
         })
     
         const savedProject = await newProject.save()
