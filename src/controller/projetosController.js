@@ -43,9 +43,24 @@ const findProjectById = async (req, res) => {
         res.status(500).json({ message: error.message })
     }
 }
+
+const updateProject = async (req, res) => {
+    try {
+        const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade } = req.body
+        const updatedProject = await ProjetosModel.findByIdAndUpdate(req.params.id, {
+            nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade
+        })
+        res.status(200).json(updatedProject)
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({ message: error.message })
+    }
+}
  
 module.exports = {
     registerNewProject,
     findAllProjects,
-    findProjectById
+    findProjectById,
+    updateProject
 }
