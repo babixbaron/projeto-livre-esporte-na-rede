@@ -44,6 +44,19 @@ const findProjectById = async (req, res) => {
     }
 }
 
+const findProjectByRegiao = async (req, res) => {
+    try {
+        const { regiao } = req.query
+        const findProject = await ProjetosModel.find({ regiao: regiao })    
+
+        res.status(200).json(findProject)    
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({ message: error.message })
+    }
+}
+
 const updateProject = async (req, res) => {
     try {
         const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade } = req.body
@@ -76,6 +89,7 @@ module.exports = {
     registerNewProject,
     findAllProjects,
     findProjectById,
+    findProjectByRegiao,
     updateProject,
     deleteProject
 }
