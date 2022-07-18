@@ -33,8 +33,19 @@ const findAllProjects = async (req, res) => {
     }
 }
 
+const findProjectById = async (req, res) => {
+    try {
+        const findProject = await ProjetosModel.findById(req.params.id)
+        res.status(200).json(findProject)
 
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({ message: error.message })
+    }
+}
+ 
 module.exports = {
     registerNewProject,
-    findAllProjects
+    findAllProjects,
+    findProjectById
 }
