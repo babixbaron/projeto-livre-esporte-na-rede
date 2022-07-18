@@ -10,5 +10,62 @@
   "schemes": [
     "http"
   ],
-  "paths": {}
+  "paths": {
+    "/": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/projeto": {
+      "post": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "nome": {
+                  "example": "any"
+                },
+                "contato": {
+                  "example": "any"
+                },
+                "local": {
+                  "example": "any"
+                },
+                "regiao": {
+                  "example": "any"
+                },
+                "vagasDisponiveis": {
+                  "example": "any"
+                },
+                "diasDaSemana": {
+                  "example": "any"
+                },
+                "modalidades": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  }
 }
