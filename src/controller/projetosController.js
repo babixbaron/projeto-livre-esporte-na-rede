@@ -57,10 +57,25 @@ const updateProject = async (req, res) => {
         res.status(500).json({ message: error.message })
     }
 }
- 
+
+const deleteProject = async (req, res) => {
+    try {
+        const { id } = req.params
+        await ProjetosModel.findByIdAndDelete(req.params.id)
+        const message = `Projeto com o id: ${id} removido com sucesso.`
+        res.status(200).json({ message })
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({ message: error.message })
+    }
+}
+
+
 module.exports = {
     registerNewProject,
     findAllProjects,
     findProjectById,
-    updateProject
+    updateProject,
+    deleteProject
 }
