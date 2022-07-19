@@ -8,8 +8,8 @@ const projetosSchema = mongoose.Schema(
         local: { type: String, required: true },
         regiao: { type: String },
         vagasDisponiveis: { type: Boolean },
-        diasDaSemana: {type: String },
-        modalidades: { type: String },
+        diasDaSemana: {type: [String] },
+        modalidades: { type: [String] },
         idades: { type: String }
     },
     {
