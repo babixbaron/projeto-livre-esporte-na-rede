@@ -58,9 +58,10 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 
 ### Contato
 
-[![Linkedin](https://cdn-icons-png.flaticon.com/512/408/408703.png?w=740)](https://www.linkedin.com/in/barbaracostabaron/)
+<a href="https://www.linkedin.com/in/barbaracostabaron"><img src="https://cdn-icons-png.flaticon.com/512/408/408703.png?w=740" align="left" height="32" width="32" ></a>
 
-[![Instagram](https://cdn-icons-png.flaticon.com/512/1216/1216878.png?w=740)](https://www.instagram.com/babixbaron)
+<a href="https://www.instagram.com/babixbaron"><img src="https://cdn-icons-png.flaticon.com/512/1216/1216753.png?w=740" align="left" height="32" width="32" ></a>
+
 
 
 
