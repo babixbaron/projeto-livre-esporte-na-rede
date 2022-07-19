@@ -57,7 +57,6 @@ const findProjectByRegiao = async (req, res) => {
     }
 }
 
-
 const findProjectByModalidade = async (req, res) => {
     try {
         const { modalidades } = req.query
