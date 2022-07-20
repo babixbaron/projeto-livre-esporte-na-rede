@@ -1,13 +1,13 @@
 # Esporte na Rede :basketball:	:globe_with_meridians:
 Projeto Livre para Conclusão de Curso de Desenvolvimento Back-end - Reprograma
 
-### Olá, meu nome é Bárbara :rainbow:	
+## Olá, meu nome é Bárbara :rainbow:	
 
 Tenho 29 anos, moro em Florianópolis - SC, sou formada em Educação Física - Bacharelado pela Universidade Federal de Santa Catarina e no momento estou em transição de carreira, cursando desenvolvimento back-end na {reprograma}. Abaixo falarei mais sobre o projeto!
 
 <br>
 
-### Sobre o projeto: Esporte na Rede :softball:	
+## Sobre o projeto: Esporte na Rede :softball:	
 
 Como Profissional de Educação Física e instutora de iniciação esportiva há 4 anos, sei da importância do esporte na vida de crianças e adolescentes, tanto para lazer e saúde quanto para sua formação educacional, e também sei que indivíduos de baixa renda muitas vezes tem pouco acesso à clubes de formação esportiva, pois a maioria custa caro.
 
@@ -15,7 +15,7 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 
 <br>
 
-### Funcionalidades :soccer:
+## Funcionalidades :soccer:
 
 - [x] No schema dos projetos deve constar os seguintes campos: id(autogerado), nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades
 - [x] A API deve permitir o cadastro de projetos sociais esportivos
@@ -25,7 +25,7 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 
 <br>
 
-### Rotas :volleyball:
+## Rotas :volleyball:
 
 | Rotas - Projetos              | Funções                                       |
 |-------------------------------|---------------------------------------------- |    
@@ -39,7 +39,7 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 
 <br>
 
-### Tecnologias e pacotes utilizados :hammer_and_wrench:
+## Tecnologias e pacotes utilizados :hammer_and_wrench:
 
 - JavaScript
 - Node.js
