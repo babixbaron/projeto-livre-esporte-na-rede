@@ -1,4 +1,4 @@
-# Esportes na Rede :basketball:	:globe_with_meridians:
+# Esporte na Rede :basketball:	:globe_with_meridians:
 Projeto Livre para Conclusão de Curso de Desenvolvimento Back-end - Reprograma
 
 ### Olá, meu nome é Bárbara :rainbow:	
@@ -7,7 +7,7 @@ Tenho 29 anos, moro em Florianópolis - SC, sou formada em Educação Física - 
 
 <br>
 
-### Sobre o projeto: Esportes na Rede :softball:	
+### Sobre o projeto: Esporte na Rede :softball:	
 
 Como Profissional de Educação Física e instutora de iniciação esportiva há 4 anos, sei da importância do esporte na vida de crianças e adolescentes, tanto para lazer e saúde quanto para sua formação educacional, e também sei que indivíduos de baixa renda muitas vezes tem pouco acesso à clubes de formação esportiva, pois a maioria custa caro.
 
