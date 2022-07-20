@@ -55,6 +55,43 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 - jwt
 - mongoose
 
+## Arquitetura MVC
+
+  📁 PROJETO-LIVRE-ESPORTE-NA-REDE 
+  | 
+  |-  📁 node_modules 
+  |
+  |-  📁 swagger 
+  |    |- 📄 swagger_output.json
+  |
+  |-  📁 src 
+  |    |
+  |    |- 📁 database  
+  |         |- 📄 mongooseConnect.js  
+  |
+  |    |- 📁 controller  
+  |         |- 📄 projetosController.js    
+  |  
+  |    |- 📁 models 
+  |         |- 📄 projetosModel.js   
+  |  
+  |    |- 📁 routes  
+  |         |- 📄 index.js   
+  |         |- 📄 projetosRoutes.js 
+  |
+  |
+  |    |- 📄 app.js 
+  |
+  |- 📄 Procfile 
+  |- 📄 swagger.js 
+  |- 📄 .env 
+  |- 📄 .env.example 
+  |- 📄 .gitignore 
+  |- 📄 package-lock.json  
+  |- 📄 package.json 
+  |- 📄 README.md  
+  |- 📄 server.js  
+
 <br>
 
 ### Contato
