@@ -56,8 +56,6 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 - mongoose
 
 <br>
-<br>
-
 
 ### Contato
 
