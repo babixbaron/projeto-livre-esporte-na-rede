@@ -56,7 +56,7 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 - mongoose
 
 ```
-ARQUITETURA MVC 
+## ARQUITETURA MVC 
 
   📁 PROJETO-LIVRE-ESPORTE-NA-REDE
   | 
@@ -96,7 +96,7 @@ ARQUITETURA MVC
 
 <br>
 
-### Contato
+## Contato
 
 <a href="https://www.linkedin.com/in/barbaracostabaron"><img src="https://cdn-icons-png.flaticon.com/512/408/408703.png?w=740" align="left" height="32" width="32" ></a>
 
