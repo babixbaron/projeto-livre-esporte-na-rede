@@ -1,9 +1,8 @@
 # Esporte na Rede :basketball:	:globe_with_meridians:
-Projeto Livre para Conclusão de Curso de Desenvolvimento Back-end - Reprograma
 
-<p align="center">
-  ![logo](logo.jpg)
-</p>
+<h2><center>Projeto Livre para Conclusão do Bootcamp de Back-end - Reprograma</center></h2>
+<br>
+<center><img src="logo.jpg" alt="logo api" width="50%"></center>
 
 ## Olá, meu nome é Bárbara :rainbow:	
 
