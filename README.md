@@ -7,7 +7,7 @@ Tenho 29 anos, moro em Florianópolis - SC, sou formada em Educação Física - 
 
 <br>
 
-## Sobre o projeto: Esporte na Rede :softball:	
+## :softball:	Sobre o projeto: Esporte na Rede 
 
 Como Profissional de Educação Física e instutora de iniciação esportiva há 4 anos, sei da importância do esporte na vida de crianças e adolescentes, tanto para lazer e saúde quanto para sua formação educacional, e também sei que indivíduos de baixa renda muitas vezes tem pouco acesso à clubes de formação esportiva, pois a maioria custa caro.
 
@@ -15,9 +15,8 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 
 <br>
 
-## Funcionalidades :soccer:
+## :soccer: Funcionalidades 
 
-- [x] No schema dos projetos deve constar os seguintes campos: id(autogerado), nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades
 - [x] A API deve permitir o cadastro de projetos sociais esportivos
 - [x] A API deve permitir a visualização dos projetos 
 - [x] A API deve permitir a alteração de dados dos projetos 
@@ -25,7 +24,21 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 
 <br>
 
-## Rotas :volleyball:
+## :clipboard: Dados para Collection
+
+- **_id**: autogerado e obrigatório
+- **nome**: string e obrigatório
+- **contato**: number e obrigatório
+- **local**: string e obrigatório
+- **regiao**: string
+- **vagasDisponiveis**: boolean
+- **diasDaSemana**: array de string
+- **modalidades**: array de string
+- **idades**: string
+
+<br>
+
+## :volleyball: Rotas 
 
 | Rotas - Projetos              | Funções                                       |
 |-------------------------------|---------------------------------------------- |    
@@ -39,7 +52,7 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 
 <br>
 
-## Tecnologias e pacotes utilizados :hammer_and_wrench:
+## :hammer_and_wrench: Tecnologias e pacotes utilizados 
 
 - JavaScript
 - Node.js
@@ -47,6 +60,7 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 - MongoDB
 - Heroku
 - Swagger
+- Postman
 - express
 - nodemon
 - dotenv-safe
@@ -55,9 +69,9 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 - jwt
 - mongoose
 
-```
-## ARQUITETURA MVC 
+## :file_folder: Arquitetura 
 
+```
   📁 PROJETO-LIVRE-ESPORTE-NA-REDE
   | 
   |-  📁 node_modules 
