@@ -1,6 +1,10 @@
 # Esporte na Rede :basketball:	:globe_with_meridians:
 Projeto Livre para Conclusão de Curso de Desenvolvimento Back-end - Reprograma
 
+<p align="center">
+  ![logo](logo.jpg)
+</p>
+
 ## Olá, meu nome é Bárbara :rainbow:	
 
 Tenho 29 anos, moro em Florianópolis - SC, sou formada em Educação Física - Bacharelado pela Universidade Federal de Santa Catarina e no momento estou em transição de carreira, cursando desenvolvimento back-end na {reprograma}. Abaixo falarei mais sobre o projeto!
@@ -116,5 +120,7 @@ Com o objetivo de democratizar e facilitar o acesso de jovens a prática esporti
 
 <a href="https://www.instagram.com/babixbaron"><img src="https://cdn-icons-png.flaticon.com/512/1216/1216753.png?w=740" align="left" height="32" width="32" ></a>
 
+
+------------
 
 
