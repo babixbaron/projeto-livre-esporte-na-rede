@@ -2,7 +2,9 @@
 
 <h2><center>Projeto Livre para Conclusão do Bootcamp de Back-end - Reprograma</center></h2>
 <br>
-<center><img src="logo.jpg" alt="logo api" width="50%"></center>
+<p align="center"
+  <img src="logo.jpg" alt="logo api" width="50%">
+</p>
 
 ## Olá, meu nome é Bárbara :rainbow:	
 
