@@ -1,10 +1,10 @@
 # Esporte na Rede :basketball:	:globe_with_meridians:
 
-<h2><center>Projeto Livre para Conclusão do Bootcamp de Back-end - Reprograma</center></h2>
+<h2 align="center"> Projeto Livre para Conclusão do Bootcamp de Back-end - Reprograma</h2>
 <br>
-<p align="center"
-  <img src="logo.jpg" alt="logo api" width="50%">
-</p>
+<h2 align="center">
+  <img src="logo.jpg" alt="logo esporte-na-rede-api" width="50%">
+</h2>
 
 ## Olá, meu nome é Bárbara :rainbow:	
 
