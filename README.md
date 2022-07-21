@@ -1,7 +1,6 @@
 # Esporte na Rede :basketball:	:globe_with_meridians:
 
 <h2 align="center"> Projeto Livre para Conclusão do Bootcamp de Back-end - Reprograma</h2>
-<br>
 <h2 align="center">
   <img src="logo.jpg" alt="logo esporte-na-rede-api" width="50%">
 </h2>
