@@ -76,6 +76,7 @@ A documentação do projeto você encontra aqui [Documentação](https://esporte
 - bcrypt
 - jwt
 - mongoose
+- jest
 
 ## :file_folder: Arquitetura 
 
@@ -86,6 +87,9 @@ A documentação do projeto você encontra aqui [Documentação](https://esporte
   |
   |-  📁 swagger 
   |         |- 📄 swagger_output.json
+  |
+  |-  📁 test
+  |         |- 📄 projetos.test.js
   |
   |-  📁 src 
   |    |
