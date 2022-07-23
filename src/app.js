@@ -15,7 +15,7 @@ app.use(express.json())
 
 app.use('/', index)
 app.use('/', projetosRoutes)
-app.use('/minha-rota-de-documentacao', swaggerUi.serve, swaggerUi.setup(swaggerFile))
+app.use('/documentacao', swaggerUi.serve, swaggerUi.setup(swaggerFile))
 
 
 module.exports = app
