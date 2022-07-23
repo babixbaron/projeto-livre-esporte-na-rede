@@ -17,6 +17,10 @@ Como Profissional de Educação Física e instutora de iniciação esportiva há
 
 Com o objetivo de democratizar e facilitar o acesso de jovens a prática esportiva focada em saúde e lazer, esta API permitirá o cadastro de projetos sociais esportivos da região da Grande Florianópolis, para que os interessados consigam encontrar em um só lugar as informações sobre os projetos.
 
+Acesse [Esporte na Rede](https://esporte-na-rede.herokuapp.com/) :softball:
+
+A documentação do projeto você encontra aqui [Documentação](https://esporte-na-rede.herokuapp.com/documentacao/) 📄
+
 <br>
 
 ## :soccer: Funcionalidades 
