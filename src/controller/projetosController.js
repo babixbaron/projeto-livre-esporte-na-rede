@@ -72,9 +72,9 @@ const findProjectByModalidade = async (req, res) => {
 
 const updateProject = async (req, res) => {
     try {
-        const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade } = req.body
+        const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades } = req.body
         const updatedProject = await ProjetosModel.findByIdAndUpdate(req.params.id, {
-            nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idade
+            nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades
         })
         res.status(200).json(updatedProject)
 
