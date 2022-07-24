@@ -13,13 +13,13 @@ Tenho 29 anos, moro em Florianópolis - SC, sou formada em Educação Física - 
 
 ## :softball:	Sobre o projeto: Esporte na Rede 
 
-Como Profissional de Educação Física e instutora de iniciação esportiva há 4 anos, sei da importância do esporte na vida de crianças e adolescentes, tanto para lazer e saúde quanto para sua formação educacional, e também sei que indivíduos de baixa renda muitas vezes tem pouco acesso à clubes de formação esportiva, pois a maioria custa caro.
+Como Profissional de Educação Física e instrutora de iniciação esportiva há 4 anos, sei da importância do esporte na vida de crianças e adolescentes, tanto para lazer e saúde quanto para sua formação educacional, e também sei que indivíduos de baixa renda muitas vezes têm pouco acesso à clubes de formação esportiva, pois a maioria custa caro.
 
 Com o objetivo de democratizar e facilitar o acesso de jovens a prática esportiva focada em saúde e lazer, esta API permitirá o cadastro de projetos sociais esportivos da região da Grande Florianópolis, para que os interessados consigam encontrar em um só lugar as informações sobre os projetos.
 
 Acesse [Esporte na Rede](https://esporte-na-rede.herokuapp.com/) :softball:
 
-A documentação do projeto você encontra aqui [Documentação](https://esporte-na-rede.herokuapp.com/documentacao/) 📄
+A documentação do projeto você encontra aqui -> [Documentação](https://esporte-na-rede.herokuapp.com/documentacao/) 📄
 
 <br>
 
