@@ -48,6 +48,13 @@ describe('Teste de model', () => {
       expect(dados.nome).toBe('novo nome teste')
     })
   })
+  it('Remove projeto do banco de dados', () => {
+    projetos.save().then((dados) => {
+      projetos.delete().then((novosdados) => {
+        expect(projetos.nome).toBe(null)
+      })
+    })
+  })
 })
 
 
