@@ -39,7 +39,13 @@ describe('Teste de model', () => {
   })
   it('Novo projeto no banco de dados', () => {
     projetos.save().then((dados) => {
-      expect(dados.title).toBe(' ')
+      expect(dados.nome).toBe(' ')
+    })
+  })
+  it('Atualiza projeto e salva no banco de dados', () => {
+    projetos.nome = 'atualiza nome teste'
+    projetos.save().then((dados) => {
+      expect(dados.nome).toBe('novo nome teste')
     })
   })
 })
