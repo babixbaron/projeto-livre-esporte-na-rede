@@ -7,17 +7,17 @@ const registerNewProject = async (req, res) => {
 
     try {
 
-        const authHeader = req.get("authorization");
+        const authHeader = req.get('authorization')
 
         if (!authHeader) {
-            return res.status(401).send("You need an authorization");
+            return res.status(401).send('You need an authorization')
         }
 
-        const token = authHeader.split(" ")[1]
-        await jwt.verify(token, SECRET, async function (erro) {
+        const token = authHeader.split(' ')[1]
+        await jwt.verify(token, SECRET, async function (error) {
 
-        if (erro) {
-            return res.status(403).send("Access denied");
+        if (error) {
+            return res.status(403).send('Access denied')
         }
 
         const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades } = req.body
