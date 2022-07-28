@@ -25,9 +25,22 @@ const getAll = (req, res) => {
     })
 }
 
+const deleteUsuarioById = async (req, res) => {
+    try {
+        const { id } = req.params
+        await Usuarios.findByIdAndDelete(id)
+        const message = `O usuário com o ${id} foi deletada com sucesso!`
+        res.status(200).json({ message })
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({ message: error.message })
+    }
+}
+
 
 module.exports = {
     create,
     getAll,
+    deleteUsuarioById
 }
 
