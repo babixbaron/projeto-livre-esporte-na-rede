@@ -1,11 +1,25 @@
 const ProjetosModel = require('../models/projetosModel')
-//const jwt = require('jsonwebtoken')
-//const SECRET = process.env.SECRET
+const SECRET = process.env.SECRET
+const jwt = require('jsonwebtoken')
 
 
 const registerNewProject = async (req, res) => {
 
     try {
+
+        const authHeader = req.get("authorization");
+
+        if (!authHeader) {
+            return res.status(401).send("You need an authorization");
+        }
+
+        const token = authHeader.split(" ")[1]
+        await jwt.verify(token, SECRET, async function (erro) {
+
+        if (erro) {
+            return res.status(403).send("Access denied");
+        }
+
         const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades } = req.body
     
         const newProject = new ProjetosModel ({
@@ -15,15 +29,18 @@ const registerNewProject = async (req, res) => {
         const savedProject = await newProject.save()
     
         res.status(201).json(savedProject)
-        
+    })
+       
     } catch (error) {
         console.error(error)
         res.status(500).json({ message: error.message })
     }
 }
 
+
 const findAllProjects = async (req, res) => {
     try {
+        
         const allProjects = await ProjetosModel.find()
         res.status(200).json(allProjects)
 

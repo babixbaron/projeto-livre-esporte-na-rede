@@ -78,6 +78,8 @@ A documentação do projeto você encontra aqui -> [Documentação](https://espo
 - mongoose
 - jest
 
+<br>
+
 ## :file_folder: Arquitetura 
 
 ```
