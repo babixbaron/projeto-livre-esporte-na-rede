@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const colaboradorasSchema = new mongoose.Schema({
+const usuariosSchema = new mongoose.Schema({
     nome: { type: String },
     email: { type: String },
     senha: { type: String }
@@ -8,6 +8,6 @@ const colaboradorasSchema = new mongoose.Schema({
     versionKey: false
 })
 
-const colaboradoras = mongoose.model('colaboradoras', colaboradorasSchema);
+const usuarios = mongoose.model('usuarios', usuariosSchema);
 
-module.exports = colaboradoras;
+module.exports = usuarios;
