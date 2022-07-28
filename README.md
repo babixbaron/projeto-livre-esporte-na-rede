@@ -29,7 +29,7 @@ A documentação do projeto você encontra aqui -> [Documentação](https://espo
 - [x] A API deve permitir a visualização dos projetos 
 - [x] A API deve permitir a alteração de dados dos projetos 
 - [x] A API deve permitir a exclusão dos projetos do banco de dados
-- [x] A API deve permitir o cadastro e login e remoção de usuários
+- [x] A API deve permitir o cadastro, login e remoção de usuários
 
 <br>
 
@@ -58,6 +58,9 @@ A documentação do projeto você encontra aqui -> [Documentação](https://espo
 | POST/projeto                  | Cadastro de novo projeto                      |
 | PATCH/atualizar/:id           | Alteração de dados do projeto                 |
 | DELETE/remover/:id            | Exclusão do projeto do banco de dados         |
+
+<br>
+<br>
 
 | Rotas - Usuários              | Funções                                       |
 |-------------------------------|---------------------------------------------- |    
