@@ -14,7 +14,7 @@ mongoose.connect()
 app.use(cors())
 app.use(express.json())
 
-app.use(usuariosRoutes)
+app.use('/', usuariosRoutes)
 app.use('/', index)
 app.use('/', projetosRoutes)
 app.use('/documentacao', swaggerUi.serve, swaggerUi.setup(swaggerFile))

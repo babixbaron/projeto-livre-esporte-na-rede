@@ -13,8 +13,21 @@ const create = (req, res) => {
 
         res.status(201).send(usuario)
     })
-};
+}
+
+const getAll = (req, res) => {
+    Usuarios.find(function (err, usuarios) {
+        if(err) {
+            res.status(500).send({ message: err.message })
+        }
+
+        res.status(200).send(usuarios)
+    })
+}
+
 
 module.exports = {
     create,
+    getAll,
 }
+
