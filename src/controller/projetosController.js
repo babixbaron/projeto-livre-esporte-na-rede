@@ -89,11 +89,26 @@ const findProjectByModalidade = async (req, res) => {
 
 const updateProject = async (req, res) => {
     try {
-        const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades } = req.body
-        const updatedProject = await ProjetosModel.findByIdAndUpdate(req.params.id, {
-            nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades
+
+        const authHeader = req.get('authorization')
+
+        if (!authHeader) {
+            return res.status(401).send('You need an authorization')
+        }
+
+        const token = authHeader.split(' ')[1]
+        await jwt.verify(token, SECRET, async function (error) {
+
+            if (error) {
+                return res.status(403).send('Access denied')
+            }
+
+            const { nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades } = req.body
+            const updatedProject = await ProjetosModel.findByIdAndUpdate(req.params.id, {
+                nome, contato, local, regiao, vagasDisponiveis, diasDaSemana, modalidades, idades
+            })
+            res.status(200).json(updatedProject)
         })
-        res.status(200).json(updatedProject)
 
     } catch (error) {
         console.error(error)
@@ -103,11 +118,25 @@ const updateProject = async (req, res) => {
 
 const deleteProject = async (req, res) => {
     try {
-        const { id } = req.params
-        await ProjetosModel.findByIdAndDelete(req.params.id)
-        const message = `Projeto com o id: ${id} removido com sucesso.`
-        res.status(200).json({ message })
 
+        const authHeader = req.get('authorization')
+
+        if (!authHeader) {
+            return res.status(401).send('You need an authorization')
+        }
+
+        const token = authHeader.split(' ')[1]
+        await jwt.verify(token, SECRET, async function (error) {
+
+            if (error) {
+                return res.status(403).send('Access denied')
+            }
+
+            const { id } = req.params
+            await ProjetosModel.findByIdAndDelete(req.params.id)
+            const message = `Projeto com o id: ${id} removido com sucesso.`
+            res.status(200).json({ message })
+        })
     } catch (error) {
         console.error(error)
         res.status(500).json({ message: error.message })
