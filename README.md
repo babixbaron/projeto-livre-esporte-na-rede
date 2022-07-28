@@ -29,6 +29,7 @@ A documentação do projeto você encontra aqui -> [Documentação](https://espo
 - [x] A API deve permitir a visualização dos projetos 
 - [x] A API deve permitir a alteração de dados dos projetos 
 - [x] A API deve permitir a exclusão dos projetos do banco de dados
+- [x] A API deve permitir o cadastro e login e remoção de usuários
 
 <br>
 
@@ -57,6 +58,13 @@ A documentação do projeto você encontra aqui -> [Documentação](https://espo
 | POST/projeto                  | Cadastro de novo projeto                      |
 | PATCH/atualizar/:id           | Alteração de dados do projeto                 |
 | DELETE/remover/:id            | Exclusão do projeto do banco de dados         |
+
+| Rotas - Usuários              | Funções                                       |
+|-------------------------------|---------------------------------------------- |    
+| GET/usuarios                  | Acesso a todos os usuários                    |
+| POST/usuario                  | Cadastro de novo usuário                      |
+| POST/usuarios/login           | Login de usuário                              |
+| DELETE/usuario/:id            | Exclusão de usuário do banco de dados         |
 
 <br>
 
@@ -100,13 +108,16 @@ A documentação do projeto você encontra aqui -> [Documentação](https://espo
   |
   |    |- 📁 controller  
   |         |- 📄 projetosController.js   
+  |         |- 📄 usuariosController.js 
   |  
   |    |- 📁 models 
   |         |- 📄 projetosModel.js  
+  |         |- 📄 usuariosModel.js 
   |  
   |    |- 📁 routes  
   |         |- 📄 index.js   
   |         |- 📄 projetosRoutes.js 
+  |         |- 📄 usuariosRoutes.js 
   |
   |
   |    |- 📄 app.js 
